@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<head>
+<title>Ошибка в скрипте</title>
+<style>
+body{
+    background: #282828;
+    padding: 20px;
+    margin: 0;
+    font-family: Arial;
+    font-size: 11px;
+    color: #909090;
+}
+h3{
+    font-weight: normal;
+    color: #78a8d5;
+    font-size: 23px;
+    text-shadow: 0 0 5px #78a8d5;
+}
+p{
+    color: #fd1c3c;
+    text-shadow: 0 0 3px #fd1c3c;
+}
+</style>
+</head>
+<body>
+<h3>Ошибка в скрипте</h3>
+<p>{name}<br />_</p>
+</body>
+</html>

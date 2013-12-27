@@ -1,0 +1,128 @@
+/**
+ * @desktop
+ * @author korner
+ * @copyright SL-SYSTEM 2012
+ */
+
+body{
+    font-family: "Arial",sans-serif,Tahoma;
+    font-size: 11px;
+    color: #838383;
+    padding: 0;
+    margin: 0;
+    background: #1d1d1d;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: -5px 0 10px 0;
+    padding: 0;
+    color: inherit;
+    font-family: Arial;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+a{
+    color: #fff;
+}
+#win_bg{
+    background: #0a0a0a;
+    min-width: 1280px;
+    min-height: 500px;
+    overflow: hidden;
+}
+#bg{
+    background: url(../../plugins/images/sl_loading/content.gif) no-repeat 50% 50% fixed;
+}
+.bgload{
+    background: url(../../upload/admin_bg/default.jpg) no-repeat 50% 50% fixed !important;
+    opacity: 1;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+}
+/**
+ * Icons
+ */
+.icon{
+    margin-top: 0;
+    position: absolute;
+	cursor: pointer;
+	text-decoration:none;
+	color:#fff;
+	font-size: 10px;
+    width: 56px;
+    height: 56px;
+    -webkit-transition: box-shadow 300ms ease-in;
+    -moz-transition: box-shadow 300ms ease-in;
+    -o-transition: box-shadow 300ms ease-in;
+    -ms-transition: box-shadow 300ms ease-in;
+}
+.widget{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    color: #fff;
+    font-size: 10px;
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);
+}
+.icon:hover,
+.icon:active,
+.icon.active{
+	box-shadow:0px 0px 13px rgba(255, 255, 255, 0.25) !important;
+    -moz-box-shadow:0px 0px 13px rgba(255, 255, 255, 0.25) !important;
+	-webkit-box-shadow:0px 0px 13px rgba(255, 255, 255, 0.25) !important;
+}
+
+.icon.new{
+	box-shadow:0px 0px 13px rgba(255, 255, 255, 0.25);
+	-moz-box-shadow:0px 0px 13px rgba(255, 255, 255, 0.25);
+	-webkit-box-shadow:0px 0px 13px rgba(255, 255, 255, 0.25);
+    -webkit-animation: margin 400ms alternate infinite ease;
+    -moz-animation: margin 400ms alternate infinite ease;
+    -ms-animation: margin 400ms alternate infinite ease;  
+}
+
+.icon .con{
+    position: relative;
+    height: inherit;
+}
+.widget .con{
+    position: relative;
+    height: inherit;
+}
+.icon .con.preload{
+    background: url(lib/icon_load.gif) no-repeat 50% 50%, url(lib/ico_bg_load.png) no-repeat 50% 50%;
+}
+.icon .con .img.icoload{
+    opacity: 1;
+}
+.icon .img{
+    opacity: 0;
+    width: 48px;
+    height: 48px;
+    margin: 4px 0 0 4px;
+}
+.icon .tit{
+    position: absolute;
+    top: 58px;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    overflow: hidden;
+    font-size: 10px;
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);
+}
+.icon .tit span{
+    padding: 0 5px;
+    overflow: hidden;
+    display: block;
+}
+.dp_logos{
+    background: url(lib/logos.png) no-repeat 50% 50%;
+    width: 110px;
+    height: 48px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: block;
+}

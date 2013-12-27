@@ -1,0 +1,84 @@
+/**
+ * @aero style
+ * @author korner
+ * @copyright SL-SYSTEM 2012
+ */
+ 
+.aero_bg{
+    background: url(../images/aero/bg.png),url(../../upload/admin_bg/blur.jpg) no-repeat 50% 50% fixed !important;
+}
+.aero_preload{
+    background: url(../images/aero/icon_load.gif) no-repeat 50% 50%,
+    url(../images/aero/ico_bg_load.png) no-repeat 50% 50%,
+    url(../../upload/admin_bg/blur.jpg) no-repeat 50% 50% fixed !important;
+}
+.aero_style_bg{
+    background: url(../../upload/admin_bg/blur.jpg) no-repeat 50% 50% fixed !important;
+}
+.aero_shadow{
+    box-shadow:0px 5px 20px rgba(0, 0, 0, 0.2) !important;
+}
+.aero_style{
+    background: 
+    url(../images/aero/border.png) repeat-x 0 0,
+    url(../images/aero/border.png) repeat-y 100% 0,
+    url(../images/aero/border.png) repeat-x 0 100%,
+    url(../images/aero/border.png) repeat-y 0 0,
+    url(../images/aero/bg.png),
+    url(../../upload/admin_bg/blur.jpg) no-repeat 50% 50% fixed !important;
+    border: 0 !important;
+}
+.aero_radius{
+    background: 
+    url(../images/aero/r_t_l.png) no-repeat 0 0,
+    url(../images/aero/r_t_r.png) no-repeat 100% 0,
+    url(../images/aero/r_b_r.png) no-repeat 100% 100%,
+    url(../images/aero/r_b_l.png) no-repeat 0 100%,
+    
+    url(../images/aero/border.png) repeat-x 0 0,
+    url(../images/aero/border.png) repeat-y 100% 0,
+    url(../images/aero/border.png) repeat-x 0 100%,
+    url(../images/aero/border.png) repeat-y 0 0,
+    url(../images/aero/bg.png),
+    url(../../upload/admin_bg/blur.jpg) no-repeat 50% 50% fixed !important;
+    border-radius: 3px;
+    border: 0 !important;
+}
+.aero_strong{
+    background: 
+    url(../images/aero/border.png) repeat-x 0 0,
+    url(../images/aero/border.png) repeat-y 100% 0,
+    url(../images/aero/border.png) repeat-x 0 100%,
+    url(../images/aero/border.png) repeat-y 0 0,
+    url(../images/aero/bg.png),
+    url(../../upload/admin_bg/blur.jpg) no-repeat 50% 50% fixed !important;
+    border: 0 !important;
+}
+.aero_style_top{
+    background: 
+    url(../images/aero/border.png) repeat-x 0 0,
+    url(../images/aero/bg.png),
+    url(../../upload/admin_bg/blur.jpg) no-repeat 50% 50% fixed !important;
+    border: 0 !important;
+}
+.aero_style_right{
+    background: 
+    url(../images/aero/border.png) repeat-y 100% 0,
+    url(../images/aero/bg.png),
+    url(../../upload/admin_bg/blur.jpg) no-repeat 50% 50% fixed !important;
+    border: 0 !important;
+}
+.aero_style_bottom{
+    background: 
+    url(../images/aero/border.png) repeat-x 0 100%,
+    url(../images/aero/bg.png),
+    url(../../upload/admin_bg/blur.jpg) no-repeat 50% 50% fixed !important;
+    border: 0 !important;
+}
+.aero_style_left{
+    background: 
+    url(../images/aero/border.png) repeat-y 0 0,
+    url(../images/aero/bg.png),
+    url(../../upload/admin_bg/blur.jpg) no-repeat 50% 50% fixed !important;
+    border: 0 !important;
+}

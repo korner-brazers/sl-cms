@@ -1,0 +1,91 @@
+.position{
+    position: absolute;
+}
+.position_a{
+    position: absolute;
+}
+.position_r{
+    position: relative;
+}
+.position_f{
+    position: fixed;
+}
+.width{
+    width: 100%;
+}
+.width_50{
+    width: 50%;
+}
+.height{
+    height: 100%;
+}
+.height_50{
+    height: 50%;
+}
+.bottom{
+    bottom: 0;
+}
+.f_left{
+    float: left;
+}
+.f_right{
+    float: right;
+}
+.left{
+    left: 0;
+    float: left;
+}
+.right{
+    right: 0;
+    float: right;
+}
+.left_50{
+    left: 50%;
+}
+.right_50{
+    right: 50%;
+}
+.top{
+    top: 0;
+}
+.top_50{
+    top: 50%;
+}
+.bottom{
+    bottom: 0;
+}
+.bottom_50{
+    bottom: 50%;
+}
+.padding_5{
+    padding: 5px;
+}
+.padding_10{
+    padding: 10px;
+}
+.padding_15{
+    padding: 15px;
+}
+.padding_20{
+    padding: 20px;
+}
+.padding_25{
+    padding: 25px;
+}
+.padding_30{
+    padding: 30px;
+}
+.ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.over_hide{
+    overflow: hidden;
+}
+.clear{
+    clear: both;
+}
+.hide{
+    display: none;
+}

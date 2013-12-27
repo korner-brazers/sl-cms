@@ -1,0 +1,14 @@
+<FilesMatch ".*">
+   Order allow,deny
+   Deny from all
+</FilesMatch>
+
+<FilesMatch "\.(gif|jpeg|jpg|png|gif|css|js|ico|mp3)$|^$">
+   Order deny,allow
+   Allow from all
+</FilesMatch>
+
+<FilesMatch "load.php">
+   Order deny,allow
+   Allow from all
+</FilesMatch>

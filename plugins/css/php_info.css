@@ -1,0 +1,21 @@
+body{
+    background: #000;
+}
+#bg{
+    background: url(../../plugins/images/sl_loading/content.gif) no-repeat 50% 50% fixed;
+}
+.bgload{
+    background: url(../../plugins/images/php_info/bg.png) no-repeat 50% 50% !important;
+    opacity: 1;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+}
+#error{
+    /*margin: -103px 0 0 -205px;*/
+    width: 100px;
+    height: 20px;
+    margin: -10px 0 0 -50px;
+    opacity: 0;
+}

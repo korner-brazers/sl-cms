@@ -1,0 +1,30 @@
+.close_box{
+    height: 45px !important;
+    background-color: #0a0a0a;
+    background:  url(../images/imgbox/back_glow.png) no-repeat 50% 50%,#0a0a0a url(../images/imgbox/back_glow.png) no-repeat 50% 55px;
+    padding: 0 !important;
+    cursor: pointer;
+}
+.close_box:hover{
+    background:  url(../images/imgbox/back_glow.png) no-repeat 50% 40%,#0a0a0a url(../images/imgbox/back_glow.png) no-repeat 50% 60%;
+}
+.image_box{
+    background-color: rgba(0,0,0,0.6);
+    top: 0;
+    z-index: 980;
+    display: none;
+}
+#image_box_prew{
+    background: #0b0b0b;
+}
+#image_box_prew.loading{
+    background: #0b0b0b url(../images/imgbox/loading.gif) no-repeat 50% 50%;
+}
+.image_box .box_conteiner{
+    height: inherit;
+}
+.image_box .box_conteiner .error{
+    margin-top: 25%;
+    text-align: center;
+    color: #a6a6a6;
+}
