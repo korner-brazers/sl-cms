@@ -446,15 +446,16 @@
                 parent: 'body',
                 width: 120,
                 offset: 10,
-                position: 'auto' // or cursor
+                position: 'auto', // or cursor
+                conteiner: document
             }, options);
             
             var ww,wh,r_m = '',mw,mh,l = 0,t = 0,cnt = 0,callb,w,h,_this = this;
             
             o.position == 'cursor' ? (p = {left:cursor_point.x,top:cursor_point.y},w = 0,h = 0) : (p = $(this).offset(),w = $(this).outerWidth(),h = $(this).outerHeight());
             
-            ww = $(document).width();
-            wh = $(document).height();
+            ww = $(o.conteiner).width();
+            wh = $(o.conteiner).height();
             
             $.each(btn,function(k,v){
                 r_m = r_m + '<li'+(typeof v == 'string' ? ' onclick="'+v+'"' : '')+'>'+k+'</li>',cnt += 1;
