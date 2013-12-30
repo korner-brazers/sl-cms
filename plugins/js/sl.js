@@ -758,6 +758,9 @@
                     callback && callback();
                 });
                 
+                $.each($('.win_h_size,.win_h_size_shell',obj),function(){
+                    if($(this).attr('minus')) $(this).height($(this).height() - $(this).attr('minus'));
+                })
             }
             function w_h_c(obj,callback){
                 obj.show().find('.win_conteiner').fadeOut(100,function(){
